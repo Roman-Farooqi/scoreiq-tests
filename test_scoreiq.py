@@ -14,7 +14,7 @@ class ScoreIQTests(unittest.TestCase):
         self.driver = webdriver.Chrome(options=chrome_options)
         
         # Link wahi docker internal aur 5000 port
-        self.base_url = "http://host.docker.internal:5000" 
+        self.base_url = "[http://3.104.120.53:5000](http://3.104.120.53:5000)" 
 
     # --- 15 TEST CASES FOR YOUR ACTUAL SCOREIQ APP ---
 
